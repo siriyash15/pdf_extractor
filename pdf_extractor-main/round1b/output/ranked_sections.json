@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "input_documents": [
+      "Knowledge is Strength Contest (ebook).pdf",
+      "_OceanofPDF.com_Le_petit_prince_French_Edition_-_Antoine_de_saint_-Exupure.pdf"
+    ],
+    "persona": "PhD Researcher in Computational Biology",
+    "job_to_be_done": "Prepare a literature review on graph neural networks for drug discovery",
+    "timestamp": "2025-07-27 21:42:16"
+  },
+  "sections": [
+    {
+      "document": "Knowledge is Strength Contest (ebook).pdf",
+      "page": 1,
+      "section_title": "AARYAJANANI",
+      "importance_rank": 1,
+      "score": 0.1278,
+      "refined_text": "1 \n \n \n \n \nKNOWLEDGE \nIS STRENGTH \nCONTEST #5 BY \nAARYAJANANI"
+    },
+    {
+      "document": "Knowledge is Strength Contest (ebook).pdf",
+      "page": 2,
+      "section_title": "SWAMI VIVEKANANDA",
+      "importance_rank": 2,
+      "score": 0.1192,
+      "refined_text": "2 \n \n \n \n \n   BASED ON THE \nTEACHINGS & LECTURES OF \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nSWAMI VIVEKANANDA"
+    },
+    {
+      "document": "Knowledge is Strength Contest (ebook).pdf",
+      "page": 2,
+      "section_title": "BASED ON THE",
+      "importance_rank": 3,
+      "score": 0.0962,
+      "refined_text": "2 \n \n \n \n \n   BASED ON THE \nTEACHINGS & LECTURES OF \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nSWAMI VIVEKANANDA"
+    },
+    {
+      "document": "Knowledge is Strength Contest (ebook).pdf",
+      "page": 122,
+      "section_title": "PREGNANCY  WORKSHOPS",
+      "importance_rank": 4,
+      "score": 0.0956,
+      "refined_text": "122 \n \n \n \n \n \nAARYAJANANI OFFERS: \nYOUTH CONTESTS \n PRE-MARITAL WORKSHOPS \nPREGNANCY  WORKSHOPS \nPOST-PREGNANCY WORKSHOPS \nASHRAM PROGRAMS \nAWARENESS WORKSHOPS \n& MORE.. \n \n \nCONTACT@AARYAJANANI.ORG \nWWW.AARYAJANANI.ORG"
+    },
+    {
+      "document": "Knowledge is Strength Contest (ebook).pdf",
+      "page": 88,
+      "section_title": "Jnana Yoga",
+      "importance_rank": 5,
+      "score": 0.0953,
+      "refined_text": "88 \n \nJnana Yoga \nThe Real & The Apparent Man \n(Delivered in New York) \n \n \nHere we stand, and our eyes look forward sometimes miles \nahead. Man has been doing that since he began to think. He is \nalways looking forward, looking ahead. He wants to know \nwhere he goes even after the dissolution of his body. Various \ntheories have been propounded, system after system has been \nbrought forward to suggest explanations. Some have been \nrejected, while others have been accepted, and thus it will go on, \nso long as man is here, so long as man thinks. There is some \ntruth in each of these systems. There is a good deal of what is \nnot truth in all of them. I shall try to place before you the sum \nand substance, the result, of the inquiries in this line that have \nbeen made in India. I shall try to harmonise the various thoughts \non the subject, as they have come up from time to time among \nIndian philosophers. I shall try to harmonise the psychologists \nand the metaphysicians, and, if possible,"
+    },
+    {
+      "document": "Knowledge is Strength Contest (ebook).pdf",
+      "page": 122,
+      "section_title": "ASHRAM PROGRAMS",
+      "importance_rank": 6,
+      "score": 0.095,
+      "refined_text": "122 \n \n \n \n \n \nAARYAJANANI OFFERS: \nYOUTH CONTESTS \n PRE-MARITAL WORKSHOPS \nPREGNANCY  WORKSHOPS \nPOST-PREGNANCY WORKSHOPS \nASHRAM PROGRAMS \nAWARENESS WORKSHOPS \n& MORE.. \n \n \nCONTACT@AARYAJANANI.ORG \nWWW.AARYAJANANI.ORG"
+    },
+    {
+      "document": "Knowledge is Strength Contest (ebook).pdf",
+      "page": 1,
+      "section_title": "IS STRENGTH",
+      "importance_rank": 7,
+      "score": 0.0938,
+      "refined_text": "1 \n \n \n \n \nKNOWLEDGE \nIS STRENGTH \nCONTEST #5 BY \nAARYAJANANI"
+    },
+    {
+      "document": "Knowledge is Strength Contest (ebook).pdf",
+      "page": 122,
+      "section_title": "AWARENESS WORKSHOPS",
+      "importance_rank": 8,
+      "score": 0.076,
+      "refined_text": "122 \n \n \n \n \n \nAARYAJANANI OFFERS: \nYOUTH CONTESTS \n PRE-MARITAL WORKSHOPS \nPREGNANCY  WORKSHOPS \nPOST-PREGNANCY WORKSHOPS \nASHRAM PROGRAMS \nAWARENESS WORKSHOPS \n& MORE.. \n \n \nCONTACT@AARYAJANANI.ORG \nWWW.AARYAJANANI.ORG"
+    },
+    {
+      "document": "Knowledge is Strength Contest (ebook).pdf",
+      "page": 88,
+      "section_title": "and substance, the result, of the inquiries in this line that have",
+      "importance_rank": 9,
+      "score": 0.0751,
+      "refined_text": "88 \n \nJnana Yoga \nThe Real & The Apparent Man \n(Delivered in New York) \n \n \nHere we stand, and our eyes look forward sometimes miles \nahead. Man has been doing that since he began to think. He is \nalways looking forward, looking ahead. He wants to know \nwhere he goes even after the dissolution of his body. Various \ntheories have been propounded, system after system has been \nbrought forward to suggest explanations. Some have been \nrejected, while others have been accepted, and thus it will go on, \nso long as man is here, so long as man thinks. There is some \ntruth in each of these systems. There is a good deal of what is \nnot truth in all of them. I shall try to place before you the sum \nand substance, the result, of the inquiries in this line that have \nbeen made in India. I shall try to harmonise the various thoughts \non the subject, as they have come up from time to time among \nIndian philosophers. I shall try to harmonise the psychologists \nand the metaphysicians, and, if possible,"
+    },
+    {
+      "document": "Knowledge is Strength Contest (ebook).pdf",
+      "page": 1,
+      "section_title": "KNOWLEDGE",
+      "importance_rank": 10,
+      "score": 0.073,
+      "refined_text": "1 \n \n \n \n \nKNOWLEDGE \nIS STRENGTH \nCONTEST #5 BY \nAARYAJANANI"
+    }
+  ]
+}

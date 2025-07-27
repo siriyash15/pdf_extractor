@@ -1,6 +1,7 @@
-import fitz  # PyMuPDF
+import fitz 
 import re
 from collections import defaultdict
+import os
 
 LANG_HEADING_KEYWORDS = {
     'en': ['chapter', 'section', 'contents', 'introduction', 'program', 'aim', 'algorithm', 'code', 'result', 'output', 'procedure'],
@@ -28,7 +29,7 @@ HEADING_PATTERNS = [
     r'^[A-Z][A-Z\s]{2,}$',
     r'^[0-9]+(\.[0-9]+)*\s+[A-Z].+',
     r'^[A-Z][a-z]+(\s+[A-Z][a-z]+){0,5}$',
-    r'^[\u4e00-\u9fa5]{2,10}$'  # Chinese heading pattern
+    r'^[\u4e00-\u9fa5]{2,10}$' 
 ]
 
 def get_title(doc):
@@ -67,7 +68,7 @@ def cluster_fonts_by_page(doc):
         most_common_size = max(sizes.items(), key=lambda x: x[1])[0]
         font_profile.append((font, most_common_size, total))
     font_profile.sort(key=lambda x: (-x[1], -x[2]))
-    return font_profile[:5]  # allow more flexibility
+    return font_profile[:5]
 
 def determine_level(text, size, is_bold, common_sizes, font_tag):
     if re.match(r'^PROGRAM\s+\d+', text, re.IGNORECASE):
@@ -131,3 +132,20 @@ def extract_outline(pdf_path, lang='en'):
         "title": title,
         "outline": outline
     }
+
+def extract_all_documents(input_dir, lang='en'):
+    all_sections = []
+    for filename in os.listdir(input_dir):
+        if filename.endswith(".pdf"):
+            pdf_path = os.path.join(input_dir, filename)
+            doc = fitz.open(pdf_path)
+            result = extract_outline(pdf_path, lang)
+            for section in result["outline"]:
+                content = doc[section["page"] - 1].get_text()
+                all_sections.append({
+                    "document": filename,
+                    "page": section["page"],
+                    "title": section["text"],
+                    "content": content.strip()
+                })
+    return all_sections

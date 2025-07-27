@@ -1,3 +1,4 @@
+
 # 🧾 PDF_Extractor
 
 This project is a Python tool that automatically extracts an outline structured  from PDF documents by considering the visual layout and format of the text. It identifies the main titles, such as the title, H1, H2 and H3, based on the size and style of the font, and creating a clear and decentralized JSON structure. This tool operates completely offline, helping it fit the safe environment and is designed to quickly handle large PDF files. It is perfect for tasks such as summarizing documents, smart research and creating dynamic content tables.
@@ -38,7 +39,8 @@ install manually:
 Run from command line
 
 ```bash
-python extract_outline.py yourfile.pdf
+python main.py
+
 ```
 
 This will print the outline structure in your terminal.
@@ -58,7 +60,7 @@ Sample Output:
       "level": "H2",
       "text": "Background"
     },
-    ...
+    
   ]
 }
 ```
